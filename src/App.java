@@ -17,8 +17,9 @@ public class App {
 			if (i == 1) fig1 = figura;
 			else if (i == 2) fig2 = figura;
 			else fig3 = figura;
+			System.out.print(" ");
 		}
-
+		System.out.println();
 		int coincidencias = 0;
 		if (fig1 == fig2) coincidencias++;
 		if (fig2 == fig3) coincidencias++;
